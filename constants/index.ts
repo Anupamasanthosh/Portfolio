@@ -21,7 +21,7 @@ export const Menu = [
 export const socialMedia = [
   {
     id: 1,
-    img: "./git.png",
+    img: "/anupama-portfolio/public/git.png",
     alt:"mess"
   },
   {
