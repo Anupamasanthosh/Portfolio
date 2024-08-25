@@ -31,8 +31,15 @@ const SkillDataProvider = ({ src, width, height, index }: Props) => {
       animate={inView ? "visible" : "hidden"}
       custom={index}
       transition={{ delay: index * animationDelay }}
+      className="p-2"
     >
-      <Image src={src} width={width} height={height} alt="skill image" />
+      <Image
+        src={src}
+        width={width}
+        height={height}
+        alt="skill image"
+        className="max-w-full h-auto object-contain"
+      />
     </motion.div>
   );
 };
