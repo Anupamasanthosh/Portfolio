@@ -15,7 +15,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-col-reverse lg:flex-row items-center lg:px-20 px-5 mt-10 w-full z-[20] lg:pt-[20px]"
+      className="flex flex-col-reverse lg:flex-row items-center lg:px-20 px-5 mt-10 w-full z-[20] lg:pt-[80px]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-center lg:text-start">
         <motion.div
@@ -60,7 +60,7 @@ const HeroContent = () => {
         className="w-full h-full flex justify-center items-center mb-10 lg:mb-0"
       >
         <Image
-          src="/mainIconsdark.svg"
+          src="./mainIconsdark.svg"
           alt="Work icon"
           height={400}
           width={400}
