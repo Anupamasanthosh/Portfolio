@@ -12,17 +12,17 @@ const Projects = () => {
       </h1>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 px-4">
         <ProjectCard
-          src="/Owlet.png"
+          src="./Owlet.png"
           title="Modern E-Commerce Website"
           description="A responsive e-commerce platform built with Node.js, Express, and MongoDB."
         />
         <ProjectCard
-          src="/CardImage.png"
+          src="./CardImage.png"
           title="Interactive Website Cards"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
+          src="./SpaceWebsite.png"
           title="Space Themed Website"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
