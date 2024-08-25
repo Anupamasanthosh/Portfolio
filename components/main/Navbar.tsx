@@ -10,7 +10,7 @@ const Navbar = () => {
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
         >
-         <Image src="/user-310807_1280.webp" width={60} height={60} className="p-2" alt="logo">
+         <Image src="./user-310807_1280.webp" width={60} height={60} className="p-2" alt="logo">
 
          </Image>
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">

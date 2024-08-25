@@ -73,7 +73,7 @@ const Experience = () => {
                icon={
                  <div className="flex justify-center items-center w-full h-full">
                    <Image
-                     src= "/logo-sm.png"
+                     src= "./logo-sm.png"
                      alt={item.company_name}
                      width={40} // Adjusted size for smaller screens
                      height={40}
